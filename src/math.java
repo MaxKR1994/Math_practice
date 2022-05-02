@@ -1,16 +1,20 @@
 public class math {
 
     public static void main(String[] args) {
-        int a = 4;
-        int b = 2;
-        int c = 4;
-
-        double d = ((Math.abs(a+b))/(Math.pow((a+b),3)-Math.sqrt(c)));
-        float k =(float) ((Math.abs(a+b))/Math.pow((a+b),3)-Math.sqrt(c));
-        int f = (int) ((Math.abs(a+b))/Math.pow((a+b),3)-Math.sqrt(c));
+        int a = 2;
+        int b = 4;
+        int c = 9;
+        int d = Math.abs(a-b);
+        int g = a+b;
+        int k = (int) (d/(Math.pow(g,3)-Math.sqrt(c)));
+        double f = (d/(Math.pow(g,3)-Math.sqrt(c)));
+        float j = (float) (d/(Math.pow(g,3)-Math.sqrt(c)));
         System.out.println(d);
-        System.out.println(f);
+        System.out.println(g);
         System.out.println(k);
+        System.out.println(f);
+        System.out.println(j);
+
 
     }
 
