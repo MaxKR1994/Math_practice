@@ -2,10 +2,10 @@ public class math {
 
     public static void main(String[] args) {
         int a = 2;
-        int b = 4;
+        float b = 4.2f;
         int c = 9;
-        int d = Math.abs(a-b);
-        int g = a+b;
+        int d = (int) Math.abs(a-b);
+        int g = a+ (int) b;
         int k = (int) (d/(Math.pow(g,3)-Math.sqrt(c)));
         double f = (d/(Math.pow(g,3)-Math.sqrt(c)));
         float j = (float) (d/(Math.pow(g,3)-Math.sqrt(c)));
@@ -14,8 +14,6 @@ public class math {
         System.out.println(k);
         System.out.println(f);
         System.out.println(j);
-
-
     }
 
 }
